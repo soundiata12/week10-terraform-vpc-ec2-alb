@@ -6,7 +6,7 @@ variable "REGION" {
 
 }
   
-variable "INSTAMNCE_TYPE" {
+variable "INSTANCE_TYPE" {
 
   
 }

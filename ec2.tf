@@ -1,7 +1,7 @@
 
 resource "aws_instance" "server1" {
   ami = "ami-02d7fd1c2af6eead0"
-  instance_type = var.INSTAMNCE_TYPE
+  instance_type = var.INSTANCE_TYPE
   vpc_security_group_ids = [ aws_security_group.sg1.id ]
   availability_zone = "${var.REGION}a"
   subnet_id = aws_subnet.private1.id
